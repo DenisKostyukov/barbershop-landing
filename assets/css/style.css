@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid red;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.nav-menu {
+  width: 70%;
+}
+
+.nav-menu-list {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+}
+
+.nav-menu-item {
+  display: inline-block;
+}
+
+.nav-menu-item+.nav-menu-item {
+  margin-left: 60px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Oranienbaum";
+  font-size: 16px;
+}
+
+.title {
+  font-family: "Aquarelle";
+}
+
+.intro-inner {
+  display:flex ;
+  align-items:center;
+}
+
+.intro-image-wrapper {
+  width: 675.64px;
+  height: 674.95px;
+  transform: rotate(17.11deg);
+  margin-top: -80px;
+}
+.image{
+  width: 100%;
+  height: 100%;
+
+}

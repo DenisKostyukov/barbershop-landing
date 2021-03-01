@@ -1,0 +1,16 @@
+@font-face{
+  font-family: "Aquarelle";
+  src: url(../fonts/Aquarelle.ttf);
+  font-style: normal;
+  
+}
+@font-face{
+  font-family: "Oranienbaum";
+  src: url(../fonts/Oranienbaum.ttf);
+  font-style: normal;
+}
+@font-face{
+  font-family: "Prata";
+  src: url(../fonts/Prata-Regular.ttf);
+  font-style: normal;
+}
