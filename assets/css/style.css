@@ -161,3 +161,51 @@ position: relative;
 .parteners-inner>.title::after{
   content: "Наши партнеры";
 }
+.partners-image-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.service-content{
+  display: flex;
+  justify-content: space-between;
+}
+.services-inner>.title::after{
+  content: "Услуги и цены";
+}
+
+.service-type-item{
+  position: relative;
+  font-size: 2em;
+  padding-right: 40px;
+}
+
+.service-type-item::after{
+  position: absolute;
+  content: url(../images/arrow.svg);
+  right: 0;
+}
+.service-image{
+  width: 100%;
+  height: auto;
+  max-width: 420px;
+}
+.service-item{
+  border-bottom: 2px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.service-item-text{
+  font-size: 1.8em;
+}
+.service-item-text+.service-item-text{
+  margin-left: 15px;
+}
+.service-list{
+  border-left: 2px solid;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
